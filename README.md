@@ -1,13 +1,14 @@
-# JetBot-Sensor-Fault-Detection-and-Obstacle-Avoidance-for-Robust-Navigation
+# JetBot: Sensor Fault Detection and Obstacle Avoidance for Robust Navigation
+
 ![JetBot Project Image](images/jetbot_project.png)
 
-Intelligent JetBot navigation with sensor fault detection (Kalman filter) and robust obstacle avoidance.  
-Features PI controller for trajectory tracking, Kanayama controller for final position, and optimized path planning.
+This project presents an intelligent navigation system for the JetBot robot, featuring robust sensor fault detection and advanced obstacle avoidance.
 
+Sensor fault detection is implemented using an Extended Kalman Filter (EKF), which effectively filters noisy sensor data and detects anomalies to ensure reliable navigation.
 
 ![Kalman Filter Diagram](images/kalman_filter.png)
 
-The Extended Kalman Filter (EKF) is used in this project for robust sensor fault detection. It helps in filtering noisy sensor data and detecting anomalies to ensure reliable operation of the JetBot’s navigation system.
+The navigation control includes a PI controller for trajectory tracking and a Kanayama controller to guide the JetBot to specific target positions after obstacle circumvention. Additionally, optimized path planning techniques are employed to enhance obstacle avoidance performance.
 
 ## Project Structure
 
