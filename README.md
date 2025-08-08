@@ -4,6 +4,11 @@
 Intelligent JetBot navigation with sensor fault detection (Kalman filter) and robust obstacle avoidance.  
 Features PI controller for trajectory tracking, Kanayama controller for final position, and optimized path planning.
 
+
+![Kalman Filter Diagram](images/kalman_filter.png)
+
+The Extended Kalman Filter (EKF) is used in this project for robust sensor fault detection. It helps in filtering noisy sensor data and detecting anomalies to ensure reliable operation of the JetBot’s navigation system.
+
 ## Project Structure
 
 - **FP_1_EKF_Euclidiana.m**  
