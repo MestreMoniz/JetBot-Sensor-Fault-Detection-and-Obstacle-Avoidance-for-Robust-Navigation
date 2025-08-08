@@ -1,8 +1,8 @@
 # JetBot-Sensor-Fault-Detection-and-Obstacle-Avoidance-for-Robust-Navigation
 ![JetBot Project Image](images/jetbot_project.png)
 
-Intelligent JetBot navigation with sensor fault detection (Kalman filter), PI controller for trajectory tracking, Kanayama controller for final position, and optimized path planning for robust obstacle avoidance
-
+Intelligent JetBot navigation with sensor fault detection (Kalman filter) and robust obstacle avoidance.  
+Features PI controller for trajectory tracking, Kanayama controller for final position, and optimized path planning.
 
 ## Project Structure
 
@@ -29,3 +29,10 @@ Intelligent JetBot navigation with sensor fault detection (Kalman filter), PI co
 
 - **JetBotFaultDetectionObstacleAvoidance.pdf**  
   Project documentation and technical report.
+
+
+  ## Requirements
+- MATLAB 
+
+## How to Run
+Open the `.m` scripts in MATLAB and execute `FP_3_Kanayama_Controller.m` as the main entry point.
